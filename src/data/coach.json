@@ -1,38 +1,6 @@
 {
-  "personal_info": {
-    "first_name": "Suzanne",
-    "last_name": "Tedeschi",
-    "phone": "",
-    "email": ""
-  },
-  "professional_info": {
-    "coaching_title": "Certified Health & Wellness Coach",
-    "certifications": "Certified Health Coach",
-    "photos": ""
-  },
-  "about": {
-    "story": "A passionate health and wellness coach dedicated to helping clients achieve optimal health through personalized, root-cause coaching and sustainable lifestyle changes.",
-    "who_you_help": "Clients seeking to improve their health through personalized coaching, root-cause approaches, and sustainable lifestyle changes.",
-    "what_makes_you_different": "A personalized approach that looks at the whole picture — nutrition, lifestyle, stress, sleep, and more — to identify root causes and create sustainable paths to better health."
-  },
-  "services": {
-    "main_program": "Personalized Wellness Program; Ongoing Support & Accountability",
-    "whats_included": "Regular coaching sessions, personalized nutrition and lifestyle plan, messaging support between sessions, progress tracking.",
-    "price": "Contact for pricing"
-  },
-  "social_proof": {
-    "client_success_stories": "",
-    "common_concerns": ""
-  },
-  "branding": {
-    "website_feel": "Professional, welcoming, clean",
-    "favorite_colors": "Sage green and warm beige",
-    "social_media": ""
-  },
-  "call_to_action": {
-    "how_to_start": "Book a free discovery call",
-    "scheduling_tool": "",
-    "website_goal": "Generate leads and book discovery calls"
-  },
-  "additional_notes": ""
+  "name": "Suzanne Tedeschi",
+  "email": "swellnesscoaching123@gmail.com",
+  "siteUrl": "",
+  "status": "personalization"
 }

@@ -19,7 +19,7 @@ const coachEmail = siteConfig.coach.email;
 const socialLinks = siteConfig.social;
 ---
 
-<footer style="background-color: #1B3A5C; border-top: 2px solid #C9A96E;">
+<footer style="background-color: #1B3A5C; border-top: 2px solid #0D9488;">
   <div class="container mx-auto px-4 sm:px-6 lg:px-8 py-10 md:py-12 lg:py-16">
     <div class="grid grid-cols-1 md:grid-cols-3 gap-8 lg:gap-12">
       <!-- Brand Column -->
@@ -28,12 +28,12 @@ const socialLinks = siteConfig.social;
           href="/"
           class="inline-flex items-center gap-3 transition-opacity hover:opacity-90"
         >
-          <span class="font-heading text-xl lg:text-2xl font-semibold" style="color: #FAF6EF;">
+          <span class="font-heading text-xl lg:text-2xl font-semibold" style="color: #F0FDFA;">
             {siteConfig.coach.name}
           </span>
         </a>
-        <p class="mt-3 font-body text-sm leading-relaxed" style="color: rgba(250,246,239,0.75);">
-          Certified Health & Wellness Coach helping clients achieve optimal health through personalized, root-cause coaching.
+        <p class="mt-3 font-body text-sm leading-relaxed" style="color: rgba(240,253,250,0.75);">
+          Certified Functional Medicine Coach specializing in mold toxicity, Endometriosis, chronic illness, and emotional healing.
         </p>
         <!-- Social Media Links -->
         <div class="mt-4 flex items-center gap-3">
@@ -55,14 +55,14 @@ const socialLinks = siteConfig.social;
 
       <!-- Navigation Column -->
       <div class="md:col-span-1">
-        <h3 class="font-heading text-lg font-semibold mb-4" style="color: #FAF6EF;">Quick Links</h3>
+        <h3 class="font-heading text-lg font-semibold mb-4" style="color: #F0FDFA;">Quick Links</h3>
         <nav aria-label="Footer navigation">
           <ul class="space-y-2">
             {navLinks.map((link) => (
               <li>
                 <a
                   href={link.href}
-                  class="font-body transition-colors text-sm" style="color: rgba(250,246,239,0.75);"
+                  class="font-body transition-colors text-sm" style="color: rgba(240,253,250,0.75);"
                 >
                   {link.label}
                 </a>
@@ -74,11 +74,11 @@ const socialLinks = siteConfig.social;
 
       <!-- Contact Column -->
       <div class="md:col-span-1">
-        <h3 class="font-heading text-lg font-semibold mb-4" style="color: #FAF6EF;">Get in Touch</h3>
+        <h3 class="font-heading text-lg font-semibold mb-4" style="color: #F0FDFA;">Get in Touch</h3>
         <div class="space-y-3">
           <a
             href={`mailto:${coachEmail}`}
-            class="flex items-center gap-2 font-body transition-colors text-sm group" style="color: rgba(250,246,239,0.75);"
+            class="flex items-center gap-2 font-body transition-colors text-sm group" style="color: rgba(240,253,250,0.75);"
           >
             <svg
               class="w-5 h-5 transition-colors" style="color: #98D8AA;"
@@ -96,7 +96,7 @@ const socialLinks = siteConfig.social;
             </svg>
             <span>{coachEmail}</span>
           </a>
-          <p class="font-body text-xs" style="color: rgba(250,246,239,0.5);">
+          <p class="font-body text-xs" style="color: rgba(240,253,250,0.5);">
             I'd love to hear from you. Feel free to reach out anytime!
           </p>
         </div>
@@ -104,21 +104,21 @@ const socialLinks = siteConfig.social;
     </div>
 
     <!-- Bottom Bar -->
-    <div class="mt-10 pt-8" style="border-top: 1px solid rgba(250,246,239,0.15);">
+    <div class="mt-10 pt-8" style="border-top: 1px solid rgba(240,253,250,0.15);">
       <div class="flex flex-col sm:flex-row items-center justify-between gap-4">
-        <p class="font-body text-sm text-center sm:text-left" style="color: rgba(250,246,239,0.5);">
+        <p class="font-body text-sm text-center sm:text-left" style="color: rgba(240,253,250,0.5);">
           &copy; {currentYear} {siteConfig.coach.name}. All rights reserved.
         </p>
         <nav aria-label="Legal navigation" class="flex items-center gap-4">
           <a
             href="/privacy"
-            class="font-body transition-colors text-sm" style="color: rgba(250,246,239,0.5);"
+            class="font-body transition-colors text-sm" style="color: rgba(240,253,250,0.5);"
           >
             Privacy Policy
           </a>
           <a
             href="/terms"
-            class="font-body transition-colors text-sm" style="color: rgba(250,246,239,0.5);"
+            class="font-body transition-colors text-sm" style="color: rgba(240,253,250,0.5);"
           >
             Terms of Use
           </a>

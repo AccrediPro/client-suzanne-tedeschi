@@ -5,10 +5,9 @@ import { siteConfig } from '../../config/siteConfig';
 
 const certifications = siteConfig.certifications.map((c) => ({ label: c.label, variant: c.variant }));
 const pullquote = siteConfig.bio.pullquote;
-const storyPreview = siteConfig.bio.storyPreview;
 ---
 
-<section class="py-14 md:py-24 bg-white overflow-hidden" style="border-top: 1px solid rgba(201,169,110,0.2);">
+<section class="py-14 md:py-24 bg-white overflow-hidden" style="border-top: 1px solid rgba(13,148,136,0.15);">
   <div class="container mx-auto px-4">
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 md:gap-12 items-center">
 
@@ -17,7 +16,7 @@ const storyPreview = siteConfig.bio.storyPreview;
         <div class="relative mx-8 sm:mx-12 lg:mx-0">
           <!-- Decorative offset background -->
           <div class="absolute -top-4 -left-4 w-full h-full bg-primary-100 rounded-2xl"></div>
-          <div class="absolute -bottom-4 -right-4 w-full h-full rounded-2xl" style="background-color: rgba(201,169,110,0.25);"></div>
+          <div class="absolute -bottom-4 -right-4 w-full h-full rounded-2xl" style="background-color: rgba(13,148,136,0.2);"></div>
 
           <!-- Wellness imagery — herbs and natural remedies -->
           <img
@@ -32,8 +31,8 @@ const storyPreview = siteConfig.bio.storyPreview;
 
           <!-- Floating credential badge -->
           <div class="absolute -bottom-4 -right-4 bg-accent-800 text-white rounded-xl px-3 py-2 md:px-4 md:py-3 shadow-lg text-center">
-            <p class="font-heading font-bold text-xl md:text-2xl leading-none" style="color: #C9A96E;">40+</p>
-            <p class="font-body text-xs text-accent-200 mt-0.5">Years Experience</p>
+            <p class="font-heading font-bold text-xl md:text-2xl leading-none" style="color: #0D9488;">7</p>
+            <p class="font-body text-xs text-accent-200 mt-0.5">Certifications</p>
           </div>
         </div>
       </div>
@@ -46,15 +45,11 @@ const storyPreview = siteConfig.bio.storyPreview;
 
         <h2 class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-heading font-bold leading-tight" style="color: #1B3A5C; letter-spacing: -0.02em; line-height: 1.1;">
           Your Partner in <br class="hidden md:block" />
-          <span style="color: #98D8AA;">Transformation &amp; Success</span>
+          <span style="color: #98D8AA;">Healing &amp; Wellness</span>
         </h2>
 
-        <p class="mt-6 text-lg font-body" style="color: #3a3a3a; line-height: 1.7;">
-          {storyPreview}
-        </p>
-
         <!-- Pullquote -->
-        <blockquote class="mt-6 pl-6 border-l-[3px]" style="border-left: 3px solid #C9A96E;">
+        <blockquote class="mt-6 pl-6 border-l-[3px]" style="border-left: 3px solid #0D9488;">
           <p class="text-xl font-heading italic leading-relaxed" style="color: #1B3A5C;">
             "{pullquote}"
           </p>
