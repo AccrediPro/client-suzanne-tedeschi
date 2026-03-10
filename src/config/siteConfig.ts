@@ -1,11 +1,11 @@
 // src/config/siteConfig.ts
 // Centralized configuration for all coach-specific data.
-// Personalized for Suzanne Tedeschi — Certified Functional Medicine Coach.
+// Personalized for Suzanne — Certified Functional Medicine Coach.
 
 export const siteConfig = {
   // ─── Coach Identity ───────────────────────────────────────────────────────
   coach: {
-    name: "Suzanne Tedeschi",
+    name: "Suzanne",
     firstName: "Suzanne",
     title: "Certified Functional Medicine Coach",
     email: "swellnesscoaching123@gmail.com",
@@ -15,9 +15,9 @@ export const siteConfig = {
 
   // ─── Site Metadata ────────────────────────────────────────────────────────
   site: {
-    name: "Suzanne Tedeschi — Certified Functional Medicine Coach",
+    name: "Swellness Coaching — Certified Functional Medicine Coach",
     description:
-      "Suzanne Tedeschi is a Certified Functional Medicine Coach specializing in mold toxicity, Endometriosis, chronic illness, and emotional healing. Book a free discovery call today.",
+      "Suzanne is a Certified Functional Medicine Coach specializing in mold toxicity, Endometriosis, chronic illness, and emotional healing. Book a free discovery call today.",
     ogImage: "/images/og-default.jpg",
   },
 
@@ -49,7 +49,7 @@ export const siteConfig = {
   // ─── Stats & Credentials ──────────────────────────────────────────────────
   stats: {
     yearsExperience: "",
-    certifications: 7,
+    certifications: 8,
     processSteps: 0,
   },
 
@@ -234,7 +234,7 @@ export const siteConfig = {
 
   // ─── SchemaOrg defaults ───────────────────────────────────────────────────
   schema: {
-    name: "Suzanne Tedeschi — Certified Functional Medicine Coach",
+    name: "Swellness Coaching — Certified Functional Medicine Coach",
     description:
       "Certified Functional Medicine Coach specializing in mold toxicity, Endometriosis, chronic illness, and emotional healing. Book a free discovery call today.",
     jobTitle: "Certified Functional Medicine Coach",
