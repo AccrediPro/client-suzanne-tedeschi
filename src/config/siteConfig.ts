@@ -63,6 +63,7 @@ export const siteConfig = {
     { abbr: "L2AN", full: "Level 2 Applied Nutrition" },
     { abbr: "BW", full: "Breathwork" },
     { abbr: "MED", full: "Meditation" },
+    { abbr: "ENDO", full: "Endometriosis Specialist" },
   ],
 
   // ─── Certifications (used in AboutPreview & about.astro) ─────────────────
@@ -107,6 +108,12 @@ export const siteConfig = {
       title: "Meditation Guide",
       label: "Meditation",
       description: "Meditation certification supporting clients with mindfulness practices for mental clarity and emotional balance",
+      variant: "outline" as const,
+    },
+    {
+      title: "Endometriosis Specialist",
+      label: "Endometriosis",
+      description: "Specialized training in Endometriosis support, hormonal balance, and holistic management of chronic pelvic conditions",
       variant: "outline" as const,
     },
   ],
