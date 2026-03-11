@@ -26,5 +26,12 @@ wellness-3.jpg
   - Photo ID: WRq_sFNhxfM
   - Usage: Healthy nutrition / wellness lifestyle imagery
 
+sunset-beach-waves.jpg
+  - Title: Tropical beach at sunset with sea foam waves and turquoise ocean
+  - Photo by Shifaaz shamoon (https://unsplash.com/@sotti)
+  - Source: https://unsplash.com/photos/1507525428034-b723cf961d3e
+  - Photo ID: 1507525428034-b723cf961d3e
+  - Usage: Services section banner — sunset beach waves imagery
+
 ---
-Last updated: 2026-02-22
+Last updated: 2026-03-11
