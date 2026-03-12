@@ -26,46 +26,56 @@ const certifications = siteConfig.certifications;
     <div class="absolute bottom-0 left-0 w-64 h-64 bg-accent-100 rounded-full opacity-30 blur-3xl -translate-x-1/2 translate-y-1/2"></div>
 
     <div class="container mx-auto px-4 relative z-10">
-      <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-        <!-- Image Column -->
-        <div class="flex justify-center lg:justify-start order-2 lg:order-1" data-aos="fade-right">
-          <div class="relative mx-8 sm:mx-12 lg:mx-0">
-            <!-- Decorative background shapes -->
-            <div class="absolute -top-5 -left-5 w-full h-full rounded-2xl transform -rotate-3" style="background-color: rgba(152,216,170,0.35);"></div>
-            <div class="absolute -bottom-5 -right-5 w-full h-full rounded-2xl transform rotate-3" style="background-color: rgba(13,148,136,0.2);"></div>
+      <div class="max-w-4xl mx-auto">
+        <!-- Content with small portrait accent -->
+        <div data-aos="fade-up">
+          <div class="flex flex-col sm:flex-row items-center sm:items-start gap-6 mb-8">
+            <!-- Small portrait image -->
+            <div class="flex-shrink-0" data-aos="fade-right">
+              <div class="relative">
+                <img
+                  src={siteConfig.images.portrait}
+                  alt={`${coachName} — ${coachTitle}`}
+                  width="224" height="280"
+                  decoding="async"
+                  class="w-36 h-44 sm:w-44 sm:h-56 rounded-2xl shadow-lg ring-4 ring-white object-cover"
+                  loading="eager"
+                />
+                <!-- Floating credential badge -->
+                <div class="absolute -bottom-3 -right-3 rounded-lg px-3 py-2 shadow-lg text-center" style="background-color: #1B3A5C;">
+                  <p class="font-heading font-bold text-lg leading-none" style="color: #0D9488;">8</p>
+                  <p class="font-body text-[10px] mt-0.5" style="color: #98D8AA;">Certifications</p>
+                </div>
+              </div>
+            </div>
 
-            <!-- Wellness imagery -->
-            <img
-              src={siteConfig.images.portrait}
-              alt="Natural herbs and wellness remedies representing functional medicine and root-cause healing"
-              width="1024" height="1024"
-              decoding="async"
-              class="relative w-56 sm:w-72 md:w-80 lg:w-96 rounded-2xl shadow-2xl ring-4 ring-white"
-              style="display: block; width: 100%; height: auto; object-fit: cover; aspect-ratio: 4/5;"
-              loading="eager"
-            />
+            <!-- Title and intro text -->
+            <div class="text-center sm:text-left">
+              <span class="inline-block text-primary-600 font-medium text-sm uppercase tracking-wider mb-3">
+                About Me
+              </span>
 
-            <!-- Floating credential badge -->
-            <div class="absolute -bottom-4 -right-4 rounded-xl px-4 py-3 shadow-lg text-center" style="background-color: #1B3A5C;">
-              <p class="font-heading font-bold text-2xl leading-none" style="color: #0D9488;">8</p>
-              <p class="font-body text-xs mt-0.5" style="color: #98D8AA;">Certifications</p>
+              <h1 class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-heading font-bold text-primary-900 leading-tight">
+                Hi, I'm {coachName.split(' ')[0]}
+              </h1>
+
+              <p class="mt-2 text-xl md:text-2xl text-primary-600 font-heading font-medium">
+                {coachTitle}
+              </p>
+
+              <!-- Quick stats -->
+              <div class="mt-4 flex flex-wrap gap-6 justify-center sm:justify-start">
+                <div class="text-center">
+                  <p class="text-3xl md:text-4xl font-heading font-bold text-primary-600">8</p>
+                  <p class="text-sm text-gray-600 font-body">Certifications</p>
+                </div>
+                <div class="text-center">
+                  <p class="text-3xl md:text-4xl font-heading font-bold text-primary-600">3</p>
+                  <p class="text-sm text-gray-600 font-body">Service Options</p>
+                </div>
+              </div>
             </div>
           </div>
-        </div>
-
-        <!-- Content Column -->
-        <div class="order-1 lg:order-2" data-aos="fade-left" data-aos-delay="100">
-          <span class="inline-block text-primary-600 font-medium text-sm uppercase tracking-wider mb-3">
-            About Me
-          </span>
-
-          <h1 class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-heading font-bold text-primary-900 leading-tight">
-            Hi, I'm {coachName.split(' ')[0]}
-          </h1>
-
-          <p class="mt-2 text-xl md:text-2xl text-primary-600 font-heading font-medium">
-            {coachTitle}
-          </p>
 
           <!-- Pullquote -->
           <blockquote class="mt-6 pl-6" style="border-left: 3px solid #0D9488;">
@@ -74,18 +84,6 @@ const certifications = siteConfig.certifications;
             </p>
             <cite class="mt-2 block text-sm font-body text-gray-500 not-italic">— {coachName}</cite>
           </blockquote>
-
-          <!-- Quick stats -->
-          <div class="mt-8 flex flex-wrap gap-6">
-            <div class="text-center">
-              <p class="text-3xl md:text-4xl font-heading font-bold text-primary-600">8</p>
-              <p class="text-sm text-gray-600 font-body">Certifications</p>
-            </div>
-            <div class="text-center">
-              <p class="text-3xl md:text-4xl font-heading font-bold text-primary-600">3</p>
-              <p class="text-sm text-gray-600 font-body">Service Options</p>
-            </div>
-          </div>
         </div>
       </div>
     </div>

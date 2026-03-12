@@ -11,29 +11,19 @@ const pullquote = siteConfig.bio.pullquote;
   <div class="container mx-auto px-4">
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 md:gap-12 items-center">
 
-      <!-- Image Column -->
-      <div class="flex justify-center lg:justify-start" data-aos="fade-right">
+      <!-- Logo Column -->
+      <div class="flex justify-center lg:justify-start items-center" data-aos="fade-right">
         <div class="relative mx-8 sm:mx-12 lg:mx-0">
-          <!-- Decorative offset background -->
-          <div class="absolute -top-4 -left-4 w-full h-full bg-primary-100 rounded-2xl"></div>
-          <div class="absolute -bottom-4 -right-4 w-full h-full rounded-2xl" style="background-color: rgba(13,148,136,0.2);"></div>
-
-          <!-- Wellness imagery — herbs and natural remedies -->
+          <!-- Swellness Coaching logo -->
           <img
-            src={siteConfig.images.portrait}
-            alt="Natural herbs and wellness remedies representing functional medicine and root-cause healing"
-            width="1024" height="1024"
+            src={siteConfig.images.logo}
+            alt="Swellness Coaching logo"
+            width="400" height="400"
             decoding="async"
-            class="relative w-56 sm:w-72 md:w-80 lg:w-96 rounded-2xl shadow-xl ring-4 ring-white"
-            style="display: block; width: 100%; height: auto; object-fit: cover; aspect-ratio: 4/5;"
+            class="relative w-56 sm:w-72 md:w-80 lg:w-96"
+            style="display: block; width: 100%; height: auto; object-fit: contain;"
             loading="lazy"
           />
-
-          <!-- Floating credential badge -->
-          <div class="absolute -bottom-4 -right-4 bg-accent-800 text-white rounded-xl px-3 py-2 md:px-4 md:py-3 shadow-lg text-center">
-            <p class="font-heading font-bold text-xl md:text-2xl leading-none" style="color: #0D9488;">8</p>
-            <p class="font-body text-xs text-accent-200 mt-0.5">Certifications</p>
-          </div>
         </div>
       </div>
 

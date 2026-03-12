@@ -31,9 +31,10 @@ export const siteConfig = {
 
   // ─── Images ───────────────────────────────────────────────────────────────
   images: {
-    portrait: "/images/generated/section-bg-wellness.jpg",
+    portrait: "/images/coach-portrait-suzanne.jpg",
     hero: "/images/generated/hero-variant-1.jpg",
     ogDefault: "/images/og-default.jpg",
+    logo: "/images/swellness-logo.png",
   },
 
   // ─── Social Media ─────────────────────────────────────────────────────────
